@@ -1,0 +1,57 @@
+html {
+	box-sizing: border-box;
+	text-align: left;
+	margin: 0;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+header {
+	background-color: #2c3950;
+	width:100%;
+	position: relative;
+}
+
+h1 {
+	background-color: #1a2230;
+	margin: 0;
+	color: #fff;
+	padding: 1em;
+	text-align: center;
+}
+
+
+.wrap {
+	position: relative;
+	width: 320px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.body {
+	width: 320px;
+	margin-top: 50px;
+}
+
+.brain {
+	width: 46px;
+	position: absolute;
+	top: 4em;
+	left: 8.5em;
+}
+
+.head-left {
+	width: 125px;
+	position: absolute;
+	top: 13px;
+	left: 35px;
+}
+
+.head-right {
+	width: 125px;
+	position: absolute;
+	top: 13px;
+	right: 35px;
+}
